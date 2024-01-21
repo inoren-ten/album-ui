@@ -1,19 +1,33 @@
 {
-  "name": "@album-ui/album-ui",
+  "name": "@hasuro/album-ui",
   "version": "1.0.0",
-  "description": "",
+  "description": "AlbumUI for react",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "module": "dist/esm/index.js",
   "type": "module",
+  "keywords": [],
+  "author": "HASURO",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inoren-ten/album-ui.git"
+  },
+  "files": [
+    "dist",
+    "package.json",
+    "README.md",
+    "types"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "scripts": {
     "build": "rollup -c",
     "prepare": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "HASURO",
-  "license": "ISC",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
